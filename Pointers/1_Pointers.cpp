@@ -9,7 +9,8 @@ int main()
 	int a = 1; // integer
 	int *p;	   // pointer to an integer variable;
 			   // int* p or int *p = same
-	p = &a;	   // p=address of a;
+	p = &a;	   // &a=address of a;	// p=&a <==> p=address of a;  --> p points to a
+
 	printf("a= %d\n", a);
 	printf("Address of a= %d\n", p);
 	//*p = dereferencing = value of variable pointed by p0
