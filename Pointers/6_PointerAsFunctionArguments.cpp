@@ -4,7 +4,7 @@
 
 #include <stdio.h>
 
-// call by value
+// call by value (when we pass to function a value)
 // when called , the formal argument will take the value of actual argument
 // "a" from argument will be a copy of "a" from called Increment(a), but not same variable
 void IncrementCallByValue(int a)
@@ -13,7 +13,7 @@ void IncrementCallByValue(int a)
     printf("Address of a in IncrementCallByValue()=%d\n", &a);
 }
 
-// call by reference
+// call by reference (when we pass to function an address)
 // at argument we have a pointer, argument will be an address
 // when called , the formal argument will take the value from address of actual argument
 // all the operations will be made on value from address of actual argument
