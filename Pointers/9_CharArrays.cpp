@@ -42,4 +42,11 @@ int main()
     printf("String from B= %s\n", B);
     printf("Length of B= %d\n", lenB);
     printf("The size in bytes of B= %d\n", sizeof(B)); // (nrOfChars+1)*1 bytes , charSize=1 byte
+
+    // another type of declaration , the null character must be inserted explicit at end of string
+
+    char D[] = {'J', 'O', 'H', 'N', '\0'};
+    int lenD = strlen(D);
+    printf("String from D= %s\n", D);
+    printf("Length of D= %d\n", lenD);
 }
