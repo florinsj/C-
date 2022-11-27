@@ -17,8 +17,5 @@ int main()
     cout << endl
          << "You entered: " << str;
 
-    cout << "Enter another string: " << endl;
-    cin.get(str, 100);
-
     return 0;
 }

@@ -3,7 +3,7 @@
 using namespace std;
 
 void display(char *); // function prototype  - takes a char array parameter
-void display(string); // function prototype   - takes a string object parameter
+void display(string); // function prototype  - takes a string object parameter
 
 int main()
 {
