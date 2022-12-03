@@ -16,6 +16,9 @@
 // the "sizeof" operator is used to get a variable data type's size, in bytes
 
 // ex: sizeof(int)
+
+// can be applied to dataType, variables, constants, arrays, unions, structures, user-defined type
+
 #include <iostream>
 using namespace std;
 
