@@ -1,6 +1,8 @@
 // JavaTPoint
 // size of pointers will remain the same for all data types-- 4bytes (32bit os) , 8 bytes(64bit os)
 
+// in C++, name of an array is considered as a pointer.
+
 #include <iostream>
 using namespace std;
 void fun(int arr[])
