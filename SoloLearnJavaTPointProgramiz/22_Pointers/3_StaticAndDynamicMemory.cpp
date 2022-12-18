@@ -10,6 +10,9 @@
 // p is stored in stack as local var and holds the heap's allocated address
 // the value of 5 is stored at that address in the heap
 
+// the "new" op is used to create an object
+// the object created with "new" will exists until we explicitly use the "delete" op to delete obj
+
 #include <iostream>
 using namespace std;
 int main()
@@ -19,4 +22,14 @@ int main()
     *p = 5;
     cout << p << endl;  // outputs the address of p
     cout << *p << endl; // outputs the value from dereferenced p
+
+    // second way to assign a value
+    int *q = new int(10); // assigning a value at time of declaration
+    cout << "*q=" << *q << endl;
+
+    // create single dimensional array
+    int *arr = new int[6]; // create a space memory for an array with 6 elements and arr=adr of arr[0]
+    arr[0] = 2;
+    cout << "address of arr[0]=" << &arr[0] << endl
+         << "address of arr   =" << arr << endl;
 }
