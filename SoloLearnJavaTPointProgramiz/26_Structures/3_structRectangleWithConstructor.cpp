@@ -13,7 +13,7 @@ struct Rectangle
         width = w;
         height = h;
     }
-    void areaOfRectabngle()
+    void areaOfRectangle()
     {
         cout << "Area of rectangle is: " << (height * width) << endl;
     }
@@ -23,7 +23,7 @@ int main()
 {
     struct Rectangle rec = Rectangle(4, 5); // rec is an structure variable(instance)
 
-    rec.areaOfRectabngle();
+    rec.areaOfRectangle();
 
     return 0;
 }
