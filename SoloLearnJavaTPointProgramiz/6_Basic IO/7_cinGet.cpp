@@ -1,6 +1,6 @@
 /*
 
-cin.get()   = used to acces char array.It includes whte spaces characters
+cin.get()   = used to acces char array.It includes white spaces characters
             = read a string with the whitespace
 
 syntax : cin.get(string_name,size);
