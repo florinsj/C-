@@ -17,7 +17,7 @@ using namespace std;
 class B;
 class A
 {
-
+private:
     int x;
 
 public:
@@ -30,6 +30,7 @@ public:
 
 class B
 {
+private:
     int y;
 
 public:
