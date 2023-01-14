@@ -1,6 +1,6 @@
 // JavaTPoint
 // friend classes
-// a friend cls- can access private and protected members of the class in wich was been declared
+// a friend cls- can access private and protected members of the class in which was been declared
 
 // example
 #include <iostream>

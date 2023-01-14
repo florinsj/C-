@@ -3,7 +3,7 @@
 // private and protecred data of the class can be accesed with friend function
 
 // properties:
-// the friend function is not in the scope of the cass to wich it was declaed as a friend
+// the friend function is not in the scope of the class to which it was declaed as a friend
 // it cannot be called using objects( as is not in the scope of the class)
 // it can be invoked like a normal function, without an object
 // it cannot acces member names directly, it has to use an object name and dot "." operator
