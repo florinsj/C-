@@ -1,6 +1,9 @@
 // JavaTPoint
-//  aggregation = it is a relation of type HAS A
+//  aggregation = it is a relation of type HAS A == composition
 //  = a process in which a class defines another class as an entity reference
+// = an instance of a class has a reference to an instance of another class (or same class)
+// HAS A <==> composition
+// Ex. A Bus object has an Engine object, a Table obj has an Rectangle obj
 
 // example
 #include <iostream>
