@@ -1,8 +1,12 @@
 // JavaTPoint
+
 // inheritance = one obj aquires all the properties and behavieurs of its parent obj automaticaly
 // in C++  class which inherits the member of another class= derived class
 // the class whose member are inherited= base class
 // the derived class= specialized class for the base class
+
+// inheritence = IS A relationship between derived class and base class
+
 // advantages = code reusability
 
 // types of inheritance
