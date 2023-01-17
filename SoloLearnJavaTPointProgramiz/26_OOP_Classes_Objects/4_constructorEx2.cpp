@@ -1,7 +1,12 @@
 // JavaTPoint
 //  constructors
-/* constructor =special method invoked at the time o object creation,
-used for initialization of data members */
+/*
+- constructor =special method invoked at the time o object creation,
+used for initialization of data members
+
+- same name with class, and no return type
+- constructor never return values, they are used for initializatin
+ */
 
 // 2 types :
 // default constructor (no parameter)
