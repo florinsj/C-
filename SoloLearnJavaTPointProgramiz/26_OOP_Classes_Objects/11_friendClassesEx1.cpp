@@ -2,7 +2,10 @@
 // friend classes
 // a friend cls- can access private and protected members of the class in which was been declared
 
-// example
+// friendship is not bidirectional.it has to by explicitly in every class
+// friendship is not transitive.friend of friend is NOT friend.It has to be explicitly!
+
+//  example
 #include <iostream>
 using namespace std;
 
@@ -23,7 +26,7 @@ class B
 {
 
 public:
-    void display(A &a)
+    void display(A &a) // function with parameter= a reference to an A object
     {
         cout << "value of x is :" << a.x << endl;
     }
