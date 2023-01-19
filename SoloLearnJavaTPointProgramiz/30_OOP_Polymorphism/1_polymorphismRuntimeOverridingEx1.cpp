@@ -21,7 +21,7 @@ class Animal
 public:
     void eat()
     {
-        cout << "Eating.." << endl;
+        cout << "Animal eating.." << endl;
     }
 };
 
@@ -31,13 +31,15 @@ class Dog : public Animal
 public:
     void eat() // function overriding
     {
-        cout << "Eating meat.." << endl;
+        cout << "Dog eating.." << endl;
     }
 };
 
 int main()
 {
-    Dog d = Dog();
-    d.eat();
+    Dog d1 = Dog();
+    d1.eat();
+    Animal d2 = Dog();
+    d2.eat();
     return 0;
 }

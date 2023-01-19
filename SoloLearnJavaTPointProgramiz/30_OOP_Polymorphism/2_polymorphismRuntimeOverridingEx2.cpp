@@ -8,7 +8,7 @@ class Shape
 public:
     virtual void draw() // virtual function
     {
-        cout << "drawing.." << endl;
+        cout << "drawing Shape" << endl;
     }
 };
 class Rectangle : public Shape // inheriting Shape class
